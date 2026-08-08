@@ -1,0 +1,40 @@
+*{
+            margin: 0;
+                
+            padding: 0;
+            
+        }
+        nav{
+           
+            /* border: 1px solid black;
+            background-color: rgb(216, 164, 164); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+
+        }
+        div{
+            /* border: 1px solid red; */
+            width: 80%;
+            margin: auto;
+            display: flex;
+            height: 40px;
+            justify-content: space-around;
+            padding-top: 20px;
+            padding-bottom: 5px;
+           background-color: black  ;
+
+        }
+        a{
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        a:hover{
+            /* color: greenyellow; */
+            /* font-size: 18px; */
+            /* text-transform: lowercase; */
+            text-shadow:1px 1px  white;
+            text-decoration:underline 5px white ;
+        }
