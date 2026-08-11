@@ -31,7 +31,7 @@ nav {
   align-items: center;
   position: sticky;
   top: 10px;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .logo {
@@ -76,7 +76,7 @@ nav a:hover {
   font-size: 55px;
   max-width: 800px;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 8px black;
+  text-shadow: 2px 2px 3px black;
 }
 
 .hero-content p {
@@ -101,7 +101,7 @@ nav a:hover {
   background-color: darkorange;
   width: 150px;
   height: 50px;
-  /* transform: scale(1.05); */
+  
 
 }
 
@@ -142,8 +142,8 @@ nav a:hover {
 }
 
 .food-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  /* transform: translateY(-8px); */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .food-card img {
@@ -172,7 +172,7 @@ nav a:hover {
 
 .food-info button {
   border: none;
-  background-color: #8bcf8b;
+  background-color: green;
   color: white;
   padding: 9px 20px;
   border-radius: 5px;
@@ -198,20 +198,16 @@ footer p {
 
 @media (max-width: 700px) {
   nav {
-    /* width: calc(100% - 30px); */
-
+    
     padding: 12px 15px;
-
     flex-direction: column;
-
     gap: 10px;
   }
 
   .inner-container {
     gap: 5px;
-
     flex-wrap: wrap;
-
     justify-content: center;
+    align-items: center;
   }
 }
